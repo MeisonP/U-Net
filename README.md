@@ -36,8 +36,8 @@ name_color, name_label specifies the sffuix of the image presenting the RGB and 
 
 ### Evaluation
 - To evaluate Unet run `unet_eval` passing tfrecords dir
-  and will only using the test set in the tfrecords file.
-  and restore the pretraind model from checkpoint.
+  ,and will only using the test set in the tfrecords file,
+  and restore the pretrained model from checkpoint.
 
     ```
     python unet_eval.py --tfrecords_dir ../Datasets/tfrecords
