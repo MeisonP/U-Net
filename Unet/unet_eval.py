@@ -61,6 +61,9 @@ def maybe_save_images(images, filenames):
 def evaluate():
     """
     Eval unet using specified args:
+    
+    Note:
+        restore the pretrained model from checkpoint!!
     """
 
     data_files, data_size = load_datafiles(FLAGS.tfrecords_prefix)
